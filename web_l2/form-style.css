@@ -1,0 +1,118 @@
+header {
+    padding: 3px;
+    font-family: 'Play', sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #1d3868;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Play', sans-serif;
+    color: #050505;
+  }
+  
+  main {
+    min-height: 90vh;
+    background-image: url(../materials/background-homepage.png);
+    background-position: 0px;
+    background-size: cover;
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+  }
+  
+  form {
+    max-width: 40%;
+    padding: 4%;
+    margin:auto;
+    background-size: cover;
+    border-radius: 5px;
+    width: auto;
+    height: 100%;
+    background-color: #e4dfdfe1;
+  }
+  input{
+    border-radius: 3px;
+    color: #001e51;
+    border: 2px solid #005eff;
+  }
+
+  
+  h1 {
+    color: #addfee;
+    font-size: 30px;
+    margin: 0;
+    line-height: normal;
+  }
+  
+  h2 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  h3 {
+    font-size: 18px;
+    text-align: center;
+    line-height: normal;
+  }
+  a {
+    color: #0099ef;
+    text-decoration: underline;
+  }
+  
+  p {
+    padding: 2px;
+    text-indent: 3%;
+  }
+  .to-center{
+    margin:auto;
+    text-align: center;
+  }
+  
+  .avatar {
+    border-radius: 10px;
+  }
+  
+  nav {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1d3868;
+  
+  }
+  ::placeholder{
+    text-align: center;
+  }
+  .to-center{
+
+    text-align: center;
+  }
+  
+  nav a {
+    border: 1px solid rgba(255, 255, 255, 0.723);
+    text-decoration: none;
+    margin: 2px 0 2px 0;
+    padding: 1px 2px 1px 2px;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #1c396e;
+  }
+  
+  .logo {
+    width: 2%;
+  }
+   
+  footer {
+    white-space: nowrap;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #1d3868;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
